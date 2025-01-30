@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  src: url(CursedTimerUlil-Aznm.ttf);
+  font-family: CurseTimer;
+}
+
+body {
+  background-color: #1b244a;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+
+.score-card {
+  padding: 20px;
+  text-align: center;
+}
+
+.score-label {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #eeeeee;
+}
+
+.score-screen {
+  font-family: CurseTimer;
+  font-size: 5rem;
+  color: #f94f6d;
+  background-color: #080001;
+  padding-top: 13px;
+  border-radius: 4px;
+  margin: 15px auto;
+  width: 120px;
+}
+
+.updates {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  font-family: CurseTimer;
+  padding: 6px 6px;
+  font-size: 0.9rem;
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+  color: #9aabd8;
+  background-color: transparent;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #9aabd8;
+  color: #1b244a;
+}
